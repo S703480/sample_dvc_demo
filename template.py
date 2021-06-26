@@ -1,8 +1,8 @@
 import os
 
-dirs=[
-    os.path.join("data","raw"),
-    os.path.join("data","processed"),
+dirs = [
+    os.path.join("data", "raw"),
+    os.path.join("data", "processed"),
     "notebooks",
     "saved_models",
     "src"
@@ -16,9 +16,9 @@ files=[
     "dvc.yaml",
     "params.yaml",
     ".gitignore",
-    os.path.join("src","__init__.py")
+    os.path.join("src", "__init__.py")
 ]
 
 for file_ in files:
-    with open(file_,"w") as f:
+    with open(file_, "w") as f:
         pass
